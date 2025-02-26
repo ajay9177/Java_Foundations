@@ -1,0 +1,14 @@
+//Sealed classes
+//A sealed class grants inheritance permission to a specific list of classes
+//Every permitted subclass must already exist and must explicitly extend the sealed class
+//Every permitted subclass is required to declare itself as sealed, non-sealed, or final
+
+
+Examples:
+
+public sealed class Shape permits Rectangle,Circle{}
+public class Circle extends Shape{}
+public class Rectangle extends Shape{}
+public sealed class Rectangle extends Shape permits Square{}
+public non-sealed class Circle extends shape{}
+public final class Square extends Rectangle{}

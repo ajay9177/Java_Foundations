@@ -43,3 +43,4 @@ public class Rectangle {
 //All public and protected methods and fields in a superclass are inherited by it subclasses
 //Private methods and fields are not inherited
 //Final methods are inherited but cannot be overriden.
+
