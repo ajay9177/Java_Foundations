@@ -17,4 +17,4 @@ public class Zoo {
 
 
 //Type vs. Instance - An object can have a superclass type and a sibclass instance
-//Overriden methods = If a method is overriden by the subclass, the polymorphic object will execute the overridden method at runtime
+//Overriden methods - If a method is overriden by the subclass, the polymorphic object will execute the overridden method at runtime
