@@ -33,4 +33,10 @@ public class Rectangle {
     public double calculatePerimeter(){
         return (2 * length) + (2 * width);
     }
+    public void print(){
+        System.out.println("I am a rectangle");
+    }
 }
+
+//To override a method, you keep the same signature but change teh body of thw method
+//To overload a method, you keep the same name but change the signature
