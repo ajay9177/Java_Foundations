@@ -21,3 +21,8 @@ public class Vehicle {
         this.mileage = mileage;
     }
 }
+
+//Demonstrates multilevel inheritance in Java by modeling a vehicle hierarchy.
+// The Vehicle class defines common attributes like color and mileage, while Car extends it with door properties.
+// The Coupe class, inheriting from Car, sets the number of doors to 2 by default.
+// The Garage class tests object creation and inheritance behavior.

@@ -11,3 +11,4 @@ public class Square extends Rectangle {
         System.out.println("I am a " + what);
     }
 }
+

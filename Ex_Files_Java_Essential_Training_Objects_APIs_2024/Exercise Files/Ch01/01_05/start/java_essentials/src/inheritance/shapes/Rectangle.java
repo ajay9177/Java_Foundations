@@ -38,3 +38,8 @@ public class Rectangle {
         System.out.println("I am a rectangle");
     }
 }
+
+//Constructors are not technically members of a class and are therfore not inherited
+//All public and protected methods and fields in a superclass are inherited by it subclasses
+//Private methods and fields are not inherited
+//Final methods are inherited but cannot be overriden.
